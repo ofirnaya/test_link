@@ -2,10 +2,10 @@
 
 
 # Windows
-mklink <source> <target>
+mklink `source` `target`
 
 # Linux
-ln -s <source> <target>
+ln -s `source` `target`
 > In some cases the source and target are swapped
 
 # Clone with symbolic links must be done by Administrator
@@ -14,4 +14,4 @@ ln -s <source> <target>
 git config core.symlinks true
 
 ## Clone repo with config override
-git clone -c core.symlinks=true <Git URL>
+git clone -c core.symlinks=true `Git URL`
